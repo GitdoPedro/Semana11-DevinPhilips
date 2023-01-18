@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'semana11';
+  title = 'percorrer cada elemento do array colocar a primeira letra em maiúscula.';
 }
