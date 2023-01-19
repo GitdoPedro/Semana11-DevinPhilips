@@ -1,0 +1,15 @@
+<ul>
+    <h1>Petshop</h1>
+    <li><a (click)="direciona('home')">Home</a></li>
+    <li><a (click)="direciona('Preço')">Preço</a></li>
+    <li><a (click)="direciona('Informações')">Informações</a></li>
+    
+</ul>
+  
+
+<div [ngSwitch]= "page">
+    <h2 *ngSwitchDefault>Clique em algum lugar</h2>
+    <h2 *ngSwitchCase = "'home'">Estou na página de Home</h2>
+    <h2 *ngSwitchCase = "'Preço'">Estou na página de Preços</h2>
+    <h2 *ngSwitchCase = "'Informações'">Estou na página de Informações</h2>
+  </div>
