@@ -1,1 +1,17 @@
 <p>{{title|capitalizePhilips}}</p>
+
+
+
+
+<ul>
+  <li *ngFor = "let pokemon of arrayFotos" >
+
+    <div class="card">
+      <img src="{{pokemon.url}}" alt="Avatar" style="width:100%">
+      <div class="container">
+        <h4><b>{{pokemon.description}}</b></h4>
+        </div>
+    </div>
+
+  </li>
+</ul>
